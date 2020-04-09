@@ -2,7 +2,6 @@ function resimg = harmonic_mean_filter()
   
   % replace `PATH_TO_IMAGE` with actual image file
   impath = 'PATH_TO_IMAGE';
-  impath = 'exp img/e24.tif';
   
   % read image
   img = imread(impath);

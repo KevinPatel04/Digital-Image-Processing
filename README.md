@@ -81,4 +81,8 @@ An image can be defined as a two demensional function f(x,y), where x and y are 
 
 - Image Noise
 
-![image is not loaded](https://github.com/KevinPatel04/digital-image-processing/blob/master/images/noise_result.jpg "noise_detection_using_histogram.m")
+![image is not loaded](https://github.com/KevinPatel04/digital-image-processing/blob/master/images/noise_result.png "noise_detection_using_histogram.m")
+
+- Plotting Signature
+
+![image is not loaded](https://github.com/KevinPatel04/Digital-Image-Processing/blob/master/images/signature_output.png "signature_plotting.m")

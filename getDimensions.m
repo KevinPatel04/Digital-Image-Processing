@@ -1,4 +1,5 @@
 function [ nr, nc ] = getDimensions()
+  
   % replace `PATH_TO_IMAGE_FILE` with actual image file path
   impath = 'PATH_TO_IMAGE_FILE';
 
@@ -21,4 +22,5 @@ function [ nr, nc ] = getDimensions()
 
   % give title to the image
   title(strcat({'This is image with '},num2str(nr),{' X '},num2str(nc)));
+  
 endfunction
