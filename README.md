@@ -11,7 +11,7 @@ An image can be defined as a two demensional function f(x,y), where x and y are 
 - [Image Restoration](https://github.com/KevinPatel04/digital-image-processing/tree/master/Image%20Restoration)
 - [Color Image Processing](https://github.com/KevinPatel04/digital-image-processing/tree/master/Color%20Image%20Processing)
 - Wavelets
-- Compression
+- [Compression](https://github.com/KevinPatel04/Digital-Image-Processing/tree/master/Image%20Compression)
 - [Morphological Operations](https://github.com/KevinPatel04/digital-image-processing/tree/master/Morphological%20Operations)
 - Segmentation
 - [Representation and Description](https://github.com/KevinPatel04/digital-image-processing/tree/master/Image%20Representation)
