@@ -20,7 +20,7 @@ function implt = power_law()
   
   % computing power law for all values of gamma in array
   for i = 1:len(gamma)
-    % computing s = c * (r ^ gamma) where r and gamma are positive constants 
+    % computing s = c * (r ^ gamma) where c and gamma are positive constants 
     implt = c * (img .^ gamma(i));
     subplot(2,3,i+1),imshow(implt);  
     title(strcat({'Gamma = '},num2str(gamma(i))));
