@@ -1,4 +1,4 @@
-function resimg = horizontal_reflextion()
+function resimg = horizontal_reflection()
   
   % replace `PATH_TO_IMAGE` with actual image file
   impath = 'PATH_TO_IMAGE';
