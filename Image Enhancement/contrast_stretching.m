@@ -12,7 +12,8 @@ function [] = contrast_streching()
   % find the max. value of pixel in the image
   rmax = max(max(img));      
   
-  % find the slope of line joining point (0,255) to (rmin,rmax)
+  % find the slope of line joining point (rmin,0) to (rmax,255)
+  % slope = (y2 - y1) / (x2 - x1) ; where (x1,y1) and (x2,y2) are two points on line
   m = 255/(rmax - rmin);  
   
   % find the intercept of the straight line with the axis
