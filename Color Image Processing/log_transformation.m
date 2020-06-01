@@ -15,7 +15,7 @@ function imlogtrans = log_transformation(impath,c)
   % convert uint8 to double
   img = double(img);
   
-  % perform log transoformation using s = c * log( 1 + c )
+  % perform log transoformation using s = c * log( 1 + image_pixel )
   imlogtrans = c .* log(1 + img);
   
   subplot(1,2,2),imshow(imlogtrans);
